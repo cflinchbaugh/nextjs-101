@@ -1,8 +1,10 @@
-import useSwapi from "../../api/useSwapi"
+import Link from "next/link"
 
 const Layout = ({ children }) => {
   return (
     <>
+      <Link href="/">Home</Link>
+
       <div>
         Alt Layout Nav
       </div>

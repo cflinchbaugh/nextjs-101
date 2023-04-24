@@ -25,6 +25,14 @@ const Home: NextPageWithLayout = () => {
           <li>
             <Link href="/posts/static-generation-post">Static-Generation-Post</Link>
           </li>
+
+          <li>
+            <Link href="/posts/1">PostId: 1 (Post Details Page / Dynamic Route)</Link>
+          </li>
+
+          <li>
+            <Link href="/posts/2">PostId: 2 (Post Details Page / Dynamic Route)</Link>
+          </li>
         </ul>
       
 
