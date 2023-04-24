@@ -1,15 +1,11 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# NextJS-101
 
-## Purpose
+A NextJS sample repo with common scenarios built in for quick reference.
 
-When properly implemented, NextJS automatically handles code splitting, dynamic loading, class collisions, routing, and more. This repository demonstrates simple scenarios as intended by NextJS to quick reference.
+## Table of Contents
 
-## Setup
-
-`yarn install`
-
-## Local Development
-
-`yarn run dev`
-`yarn test` to test all files
-`yarn test <path/to/file>` to test specific file
+1. [Purpose](docs/PURPOSE.md)
+1. [Architecture](docs/ARCHITECTURE.md)
+1. [Local Development](docs/LOCAL-DEVELOPMENT.md)
+1. [Source Automation](docs/SOURCE-AUTOMATION.md)
+1. [Build and Deploy](docs/BUILD-AND-DEPLOY.md)
