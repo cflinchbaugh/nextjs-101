@@ -11,3 +11,5 @@ When properly implemented, NextJS automatically handles code splitting, dynamic 
 ## Local Development
 
 `yarn run dev`
+`yarn test` to test all files
+`yarn test <path/to/file>` to test specific file
