@@ -12,6 +12,10 @@ const config = {
   // Add more setup options before each test is run
   // setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
 
+  collectCoverageFrom: [
+    "components/**/*.{ts,tsx}",
+    "pages/**/*.{ts,tsx}",
+  ],
   testEnvironment: 'jest-environment-jsdom',
 }
 

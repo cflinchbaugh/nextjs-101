@@ -3,9 +3,9 @@ import { render, screen } from '@testing-library/react'
 import AltLayout from './AltLayout'
 
 describe('PostDetails', () => {
-  it('renders the Home link', () => {
+  it('renders the Alt Layout Nav text', () => {
     render(<AltLayout>Children</AltLayout>)
 
-    expect(screen.getByText('Fail')).toBeDefined()
+    expect(screen.getByText('Alt Layout Nav')).toBeDefined()
   })
 })
