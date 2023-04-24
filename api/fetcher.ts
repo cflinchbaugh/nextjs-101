@@ -1,3 +1,2 @@
-const fetcher = (...args) => fetch(...args).then(res => res.json())
-
+const fetcher = (apiURL: string) => fetch(apiURL).then(res => res.json())
 export default fetcher
