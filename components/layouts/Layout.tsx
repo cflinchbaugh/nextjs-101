@@ -1,10 +1,13 @@
 import Image from 'next/image';
 import styles from './layout.module.scss';
+import Link from 'next/link';
 
 const Layout = ({ children }) => {
   return (
     <>
       <div className={styles.container}>
+        <Link href="/">Home</Link>
+
         <div>
           Default Layout Navbar
         </div>
